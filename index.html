@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>Guess My Number!</title>
+  <script src="./script.js" defer></script>
+</head>
+
+<body>
+  <header>
+
+    <button id="reveal">Reveal!</button>
+    <p class="num-range">(Between 1 and 20)</p>
+  </header>
+  <main>
+    <!-- Number display -->
+    <section class="num-display">
+      <div>
+        <p class="display-feedback">Guess The Number!</p>
+        <div class="mystery-box">
+          <p class="mystery-num">?</p>
+        </div>
+      </div>
+    </section>
+    <!-- User guess / score -->
+    <section class="user-ui">
+      <div class="left">
+        <input type="number" id="num-guess" name="num-guess" min="1" max="20" required />
+        <button id="num-btn">Check!</button>
+      </div>
+      <div class="right">
+        <p>Start guessing...</p>
+        <p>💯 Score: <span id="score">0</span></p>
+        <p>🏅 Highscore: <span id="highscore">0</span></p>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>

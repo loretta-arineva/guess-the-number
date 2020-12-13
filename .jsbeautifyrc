@@ -1,0 +1,8 @@
+{
+  "css": {
+    "preserve_newlines": true
+  },
+  "indent_size": 2,
+  "indent_char": " ",
+  "selector_separator_newline": false
+}
