@@ -209,3 +209,38 @@ header,
     transform: translate3d(4px, 0, 0);
   }
 }
+
+@media only screen and (max-width: 640px) {
+  .display-feedback {
+    font-size: 1.7rem;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 540px) {
+  .display-feedback {
+    font-size: 1.5rem;
+    padding: 0 15px;
+    line-height: 1.5;
+  }
+
+  .user-ui {
+    flex-direction: column;
+    align-items: center;
+    padding-top: 60px;
+  }
+
+  .left {
+    margin-bottom: 50px;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  header {
+    flex-direction: column;
+  }
+
+  #mode {
+    margin-bottom: 25px;
+  }
+}
