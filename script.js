@@ -48,6 +48,7 @@ function reset(num) {
   inp.classList.remove("win-text");
   mysteryNum.classList.remove("win-text");
   inp.removeAttribute("disabled", "disabled");
+  displayFeedback.style.color = "white";
 
   guesses = 0;
   inp.value = "";
