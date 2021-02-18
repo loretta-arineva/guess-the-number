@@ -1,10 +1,23 @@
 # Guess The Number
+
+## Table of contents
+
+* [Description](#description)
+* [Play now](#play-now)
+* [About this game](#about-this-game)
+    * [Objective](#objective)
+* [How-to-play](#how-to-play)
+* [Author](#author)
+
+## Description
 Guess the number is a simple guiessing game with a lovely retro design. 
 
+## Play now
   [Play game](https://loretta-arineva.github.io/guess-the-number/)
 
   ![Guess the number game screenshot](images/loretta-arineva.github.io_guess-the-number_.png "Guess The Number Game")
-## About
+
+## About this game
 ### Objective
 Guess the number.
 
