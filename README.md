@@ -1,6 +1,7 @@
 # Guess The Number
 Guess the number is a simple guiessing game with a lovely retro design. 
 
+ <font size="5">[Play game](https://loretta-arineva.github.io/guess-the-number/)</font>
 ## About
 ### Objective
 Guess the number.
