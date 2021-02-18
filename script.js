@@ -1,15 +1,4 @@
 'use strict';
-
-// - Generate a random number
-// - Store random number
-// - Get button to compare values
-// - Check if input value === guessed number
-// - Each time check is clicked delete input value
-// - Update score
-// - Keep track of highest score
-// - Reset button generates new number
-// If num is correct, change bg and mystery num output
-
 // Is highscore num of attempts?
 // User picks range?
 const modeBtn = document.querySelector("#mode");
