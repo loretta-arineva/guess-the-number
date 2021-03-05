@@ -96,6 +96,11 @@ header, .num-display,
   display: flex;
 }
 
+.guess-output {
+  text-align: center;
+  line-height: 1.5;
+}
+
 header,
 .num-display,
 .mystery-num {
@@ -243,4 +248,28 @@ header,
   #mode {
     margin-bottom: 25px;
   }
+}
+
+@media only screen and (max-height: 695px) {
+  .right p:first-child {
+    margin-bottom: 30px;
+  }
+  
+  .right p:nth-child(2) {
+    margin-bottom: 25px;
+  }
+
+  .left {
+    margin-bottom: 10px;
+  }
+
+  #num-guess {
+    height: 50px;
+    width: 120px;
+  }
+
+  #num-btn {
+    margin: 10px auto;
+  }
+
 }
